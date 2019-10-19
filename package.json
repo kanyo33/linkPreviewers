@@ -1,0 +1,24 @@
+{
+  "name": "dynamiclink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanyo33/linkPreviewers.git"
+  },
+  "author": "Noah Kanyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanyo33/linkPreviewers/issues"
+  },
+  "homepage": "http://kanyo33.github.io/linkPreviewers/",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
